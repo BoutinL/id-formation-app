@@ -4,21 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>INSCRIPTION</title>
 </head>
 <body>
     <main>
         <h1>Demande d'inscription</h1>
-        <container>
-            <section class="infos-perso">
-                <h2>Informations personnelles du responsable</h2>
-                <label for="nom">Nom:</label>
-                <input type="text">
-            </section>
-            <section class="infos-enfant">
-                <h2>Informations de l'enfant à inscrire</h2>
-            </section>
-        </container>
+        <form action="index.html">
+            <container>
+                <section class="infos-perso">
+                    <h2 id="h2_infos_perso">Informations personnelles du responsable</h2>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom">
+                    <label for="adresse">Adresse:</label>
+                    <input type="text" id="adresse">
+                    <label for="e_mail">E-mail:</label>
+                    <input type="email" name="mail" id="e_mail">
+                    <label for="telephone">Téléphone:</label>
+                    <input type="text" id="telephone" pattern="[0-9]{10}" placeholder="0x xx xx xx xx">
+                </section>
+                <section class="infos-enfant">
+                    <h2 id="h2_infos_enfant">Informations de l'enfant à inscrire</h2>
+                    <div class="partie-centrale">
+                        <div class="gauche">
+                            <label for="prenom_enfant">Prénom:</label>
+                            <input type="text" id="prenom_enfant">
+                            <label for="nom_enfant">Nom:</label>
+                            <input type="text" id="nom_enfant">
+                            <label for="date_naissance">Date de naissance:</label>
+                            <input type="text" id="date_naissance" placeholder="xx/xx/xxxx">
+                            <label for="regime">Régime de cantine:</label>
+                            <input type="text" id="regime">
+                        </div>
+                        <div class="droite">
+                            <label for="allergies">Allergies:</label>
+                            <textarea name="" id="allergies"></textarea>
+                            <label for="iban">Code IBAN:</label>
+                            <input type="text" id="iban">
+                        </div>
+                    </div>
+                    <span id="button_submit"><input type="submit" value="Soumettre" id="submit_button"></span>
+                </section>
+            </container>
+        </form>
     </main>
 </body>
 </html>
