@@ -4,13 +4,46 @@
     padding: 0;
 }
 container {
+    display: block;
     background-color: white;
 }
-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+h1  {
+    color: #547c84;
+    margin: 30px; 20px;
 }
-.logo_idf {
-    size-adjust: 5px;
+#partie_premiere {
+
+}
+#img_txt {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+h2 {
+    background-color: #ffe699;
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+}
+.premier-paraph {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #ffe699;
+    text-align: center;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+#partie_deux {
+    display: flex;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+}
+.deuxieme-paraph {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #a1b7bb;
+    color: black;
+    padding-bottom: 20px;
 }
