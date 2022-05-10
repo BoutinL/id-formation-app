@@ -1,0 +1,16 @@
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+container {
+    background-color: white;
+}
+header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+}
+.logo_idf {
+    size-adjust: 5px;
+}
