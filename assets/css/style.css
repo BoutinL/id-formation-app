@@ -15,35 +15,39 @@ h1  {
 
 }
 #img_txt {
-    padding: 30px;
+    padding: 10px 40px;
     display: flex;
-    flex-direction: row;
+    width: 100%;
+}
+#introduction {
+    display: flex;
+    padding: 20px;
 }
 h2 {
     background-color: #ffe699;
-    width: 35%;
     text-align: center;
     padding: 20px;
 }
 .premier-paraph {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
     background-color: #ffe699;
     text-align: center;
-    padding: 20px 30px;
-    margin-bottom: 30px;
+    padding: 20px;
+    width: 60%;
+}
+#img_etablissemt {
+    width: 40%;
 }
 #partie_deux {
     display: flex;
-    padding: 20px 30px;
-    margin-bottom: 30px;
+    padding: 10px 40px;
+    width: 100%;
 }
 .deuxieme-paraph {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
     background-color: #a1b7bb;
-    color: black;
-    padding-bottom: 20px;
+    width: 40%;
+    padding: 20px;
+    margin: 15px;
+}
+#img_cantine {
+    width: 45%;
 }
