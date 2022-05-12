@@ -1,0 +1,59 @@
+@media only screen and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+    }
+    container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        margin-left: 1px;
+        margin-right: 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #montant {
+        width: auto;
+    }
+    input {
+        width: 100%;
+    }
+    .partie-droite {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    main {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .partie-gauche input {
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 20px;
+    }
+    .partie-droite p {
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: rgba(40, 142, 138, 0.87);
+    }
+    .partie-gauche label {
+        margin-left: 1px;
+        margin-right: 1px;
+        color: rgba(40, 142, 138, 0.87);
+    }
+    #submit_button {
+        margin-top: 30px;
+        align-self: center;
+        background-color:rgba(241, 214, 6, 0.632) ;
+        font-size: 15px;
+        color: white;
+        width: 60%;
+    }
+}
