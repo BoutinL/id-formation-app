@@ -1,0 +1,10 @@
+@media only screen and (max-width: 767px) {
+    container {
+        display: flex;
+        flex-direction: column;
+    }
+    .partie-centrale {
+        display: flex;
+        flex-direction: column;
+    }
+}
