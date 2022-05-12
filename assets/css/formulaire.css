@@ -4,10 +4,6 @@
     padding: 0;
     
 }
-main {
-    margin-left: 50px;
-    margin-right: 50px;
-}
 container {
     display: flex;
     flex-direction: row;
@@ -16,14 +12,13 @@ container {
 .infos-perso {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 34%;
     background-color:rgba(38, 150, 146, 0.87)
 }
 .infos-enfant {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 67%;
+    width: 100%;
 }
 .partie-centrale {
     display: flex;
@@ -78,8 +73,9 @@ input {
 }
 #h2_infos_enfant{
     margin-top: 20px;
-    align-self: center;
+    text-align: center;
     margin-bottom: 65px;
+    
 }
 .infos-enfant label {
     margin-left: 30px;
@@ -102,7 +98,7 @@ textarea{
     margin-bottom: 30px;
 }
 #submit_button {
-    width: 60%;
+    width: 30%;
     align-self: center;
     background-color:rgba(241, 214, 6, 0.632) ;
     font-size: 20px;

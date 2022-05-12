@@ -6,5 +6,50 @@
     .partie-centrale {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .infos-perso {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    #allergies {
+        height: 90px;
+    }
+    .infos-enfant input {
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: rgb(189, 232, 189);
+    }
+    textarea{
+        margin-left: 1px;
+        margin-right: 1px;
+        height: 100%;
+        margin-bottom: 30px;
+        background-color: rgb(189, 232, 189);
+        width: auto;
+    }
+    #h2_infos_perso {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        color: white;
+    }
+    .infos-enfant label {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .infos-enfant input {
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: rgb(189, 232, 189);
+    }
+    #submit_button {
+        width: 30%;
+        align-self: center;
+        background-color:rgba(241, 214, 6, 0.632) ;
+        font-size: 20px;
+        color: rgba(38, 150, 146, 0.87);
     }
 }
