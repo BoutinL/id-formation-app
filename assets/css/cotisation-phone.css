@@ -59,4 +59,9 @@
     .partie-gauche {
         width: 80%;
     }
+    main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
