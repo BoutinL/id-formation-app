@@ -148,8 +148,8 @@
                     "adresse": "35 impasse des acacias 67200 STRASBOURG",
                     "telephone": "0670784521",
                     "enfant": "Elisabeth",
-                    "nom-enfant": "Lepouillu",
-                    "date-demande": "18/04/2022",
+                    "nomEnfant": "Lepouillu",
+                    "dateDemande": "18/04/2022",
                     "regime": 1,
                     "allergies": [],
                     "ribIban": "FR7630003035409876543210925"
@@ -161,8 +161,8 @@
                     "adresse": "3 rue des boucaniers 67100 STRASBOURG",
                     "telephone": "0668339961",
                     "enfant": "Sofia",
-                    "nom-enfant": "Haroufane",
-                    "date-demande": "07/06/2022",
+                    "nomEnfant": "Haroufane",
+                    "dateDemande": "07/06/2022",
                     "regime": 2,
                     "allergies": ["lait", "arachide"],
                     "ribIban": "FR7620041010169876543210921"

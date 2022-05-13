@@ -1,4 +1,4 @@
-const bdd = {
+const bdd= {
     "categories":
     {
         "utilisateurs": [
@@ -75,130 +75,144 @@ const bdd = {
                 "ribIban": "FR7642559000011234567890121"
             }
         ],
-            "eleves": [
-                {
-                    "id": 1,
-                    "nom": "Dujardin",
-                    "prenom": "Jean",
-                    "dateNaissance": "19/05/2009",
-                    "regime": 1,
-                    "dateInscription": "01/09/2021",
-                    "idParent": 10
-                },
-                {
-                    "id": 2,
-                    "nom": "Dujardin",
-                    "prenom": "Pierre",
-                    "dateNaissance": "03/09/2007",
-                    "regime": 1,
-                    "dateInscription": "01/09/2020",
-                    "idParent": 10
-                },
-                {
-                    "id": 3,
-                    "nom": "Gentil",
-                    "prenom": "Benoit",
-                    "dateNaissance": "24/03/2004",
-                    "regime": 2,
-                    "dateInscription": "01/09/2019",
-                    "idParent": 30
-                },
-                {
-                    "id": 4,
-                    "nom": "Boudier",
-                    "prenom": "Amélie",
-                    "dateNaissance": "01/05/2004",
-                    "regime": 1,
-                    "dateInscription": "02/09/2018",
-                    "idParent": 40
-                },
-                {
-                    "id": 5,
-                    "nom": "Brochart",
-                    "prenom": "Céline",
-                    "dateNaissance": "15/10/2000",
-                    "regime": 1,
-                    "dateInscription": "4/09/2014",
-                    "idParent": 50
-                },
-                {
-                    "id": 6,
-                    "nom": "Pignon",
-                    "prenom": "Pierre",
-                    "dateNaissance": "5/08/2001",
-                    "regime": 2,
-                    "dateInscription": "4/09/2015",
-                    "idParent": 60
-                },
-                {
-                    "id": 7,
-                    "nom": "Ameziane",
-                    "prenom": "Selim",
-                    "dateNaissance": "02/02/2002",
-                    "regime": 1,
-                    "dateInscription": "02/09/2016",
-                    "idParent": 70
-                }
-            ],
-                "demandes": [
-                    {
-                        "id": 1,
-                        "nom": "Lepouillu",
-                        "mail": "lepouillu@gmail.com",
-                        "adresse": "35 impasse des acacias 67200 STRASBOURG",
-                        "telephone": "0670784521",
-                        "enfant": "Elisabeth",
-                        "nomEnfant": "Lepouillu",
-                        "dateDemande": "18/04/2022",
-                        "regime": 1,
-                        "allergies": [],
-                        "ribIban": "FR7630003035409876543210925"
-                    },
-                    {
-                        "id": 2,
-                        "nom": "Haroufane",
-                        "mail": "haroufane@gmail.com",
-                        "adresse": "3 rue des boucaniers 67100 STRASBOURG",
-                        "telephone": "0668339961",
-                        "enfant": "Sofia",
-                        "nomEnfant": "Haroufane",
-                        "dateDemande": "07/06/2022",
-                        "regime": 2,
-                        "allergies": ["lait", "arachide"],
-                        "ribIban": "FR7620041010169876543210921"
-                    }
-                ],
-                    "retards": [
-                        {
-                            "id": 1,
-                            "idParent": 30,
-                            "montant": 94.75
-                        },
-                        {
-                            "id": 2,
-                            "idParent": 60,
-                            "montant": 35.00
-                        }
-                    ]
+        "eleves": [
+            {
+                "id": 1,
+                "nom": "Dujardin",
+                "prenom": "Jean",
+                "dateNaissance": "19/05/2009",
+                "regime": 1,
+                "dateInscription": "01/09/2021",
+                "idParent": 10
+            },
+            {
+                "id": 2,
+                "nom": "Dujardin",
+                "prenom": "Pierre",
+                "dateNaissance": "03/09/2007",
+                "regime": 1,
+                "dateInscription": "01/09/2020",
+                "idParent": 10
+            },
+            {
+                "id": 3,
+                "nom": "Gentil",
+                "prenom": "Benoit",
+                "dateNaissance": "24/03/2004",
+                "regime": 2,
+                "dateInscription": "01/09/2019",
+                "idParent": 30
+            },
+            {
+                "id": 4,
+                "nom": "Boudier",
+                "prenom": "Amélie",
+                "dateNaissance": "01/05/2004",
+                "regime": 1,
+                "dateInscription": "02/09/2018",
+                "idParent": 40
+            },
+            {
+                "id": 5,
+                "nom": "Brochart",
+                "prenom": "Céline",
+                "dateNaissance": "15/10/2000",
+                "regime": 1,
+                "dateInscription": "4/09/2014",
+                "idParent": 50
+            },
+            {
+                "id": 6,
+                "nom": "Pignon",
+                "prenom": "Pierre",
+                "dateNaissance": "5/08/2001",
+                "regime": 2,
+                "dateInscription": "4/09/2015",
+                "idParent": 60
+            },
+            {
+                "id": 7,
+                "nom": "Ameziane",
+                "prenom": "Selim",
+                "dateNaissance": "02/02/2002",
+                "regime": 1,
+                "dateInscription": "02/09/2016",
+                "idParent": 70
+            }
+        ],
+        "demandes": [
+            {
+                "id": 1,
+                "nom": "Lepouillu",
+                "mail": "lepouillu@gmail.com",
+                "adresse": "35 impasse des acacias 67200 STRASBOURG",
+                "telephone": "0670784521",
+                "enfant": "Elisabeth",
+                "nomEnfant": "Lepouillu",
+                "dateDemande": "18/04/2022",
+                "regime": 1,
+                "allergies": [],
+                "rib Iban": "FR7630003035409876543210925"
+            },
+            {
+                "id": 2,
+                "nom": "Haroufane",
+                "mail": "haroufane@gmail.com",
+                "adresse": "3 rue des boucaniers 67100 STRASBOURG",
+                "telephone": "0668339961",
+                "enfant": "Sofia",
+                "nomEnfant": "Haroufane",
+                "dateDemande": "07/06/2022",
+                "regime": 2,
+                "allergies": ["lait", "arachide"],
+                "rib Iban": "FR7620041010169876543210921"
+            }
+        ],
+        "retards": [
+            {
+                "id": 1,
+                "idParent": 30,
+                "montant": 94.75
+            },
+            {
+                "id": 2,
+                "idParent": 60,
+                "montant": 35.00
+            }
+        ]
     }
 }
+
+let tabl = document.createElement("table");
+document.body.append(tabl);
 let demandes = bdd.categories.demandes;
-for( let tableau in demandes){
-	let tableauBis = demandes[tableau];
-    for(let object in tableauBis){
-    	let objetBis = tableauBis[object];
-    }
-    let id = tableauBis.id;
-    let nom = tableauBis.nom;
-    let mail = tableauBis.mail;
-    let adresse = tableauBis.adresse;
-    let telephone = tableauBis.telephone;
-    let enfant = tableauBis.enfant;
-    let nomEnfant = tableauBis.nomEnfant;
-    let dateDemande = tableauBis.dateDemande;
-    let regime = tableauBis.regime;
-    let allergies = tableauBis.allergies;
-    let ribIban = tableauBis.ribIban;
+
+//for (let tableau of demandes) { 
+  //  let tableauBis = tableau;
+    //console.log("tableauBis: ",tableauBis)
+    //for (let object in tableauBis) { 
+      //  let objectBis = object[tableauBis];
+        //console.log("object ",object);
+  //  }
+//}
+
+let firstElem = demandes[0];
+for (const prop in firstElem) {
+    let colHeader = document.createElement("th");
+    colHeader.textContent = prop;
+    tabl.appendChild(colHeader);
 }
 
-
+for (let j = 1 ; j <= demandes.length; j++) {
+    let colHead = document.createElement("tr");
+    tabl.appendChild(colHead);
+    for (let tableau in demandes) { 
+        let tableauBis = demandes[tableau];
+        for (let object in tableauBis) { 
+            let cellule = document.createElement("td");
+            let celluleText = document.createTextNode(tableauBis[object]);
+            cellule.appendChild(celluleText);
+            colHead.appendChild(cellule);
+        }	
+    }
+}
