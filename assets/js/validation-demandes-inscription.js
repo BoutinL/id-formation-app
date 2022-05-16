@@ -1,3 +1,4 @@
+
 let tabl = document.createElement("table");
 document.body.append(tabl);
 let demandes = bdd.categories.demandes;
@@ -9,19 +10,13 @@ for (const prop in firstElem) {
     tabl.appendChild(colHeader);
 }
 
-for (let j = 1 ; j <= demandes.length; j++) {
+for( let i = 0; i <= demandes.length ; i++){
     let colHead = document.createElement("tr");
     tabl.appendChild(colHead);
-    for (let tableau in demandes) { 
-        let tableauBis = demandes[tableau];
-        for (let object in tableauBis) {
-            const half = Math.ceil(demandes.length / 2); 
-            const firstHalf = demandes.splice(0, half);
-            const secondHalf = demandes.splice(-half);
-            let cellule = document.createElement("td");
-            let celluleText = document.createTextNode(tableauBis[object]);
-            cellule.appendChild(celluleText);
-            colHead.appendChild(cellule);
-        }
-    }	
+    for (let value of Object.values(demandes[i])) {
+        let cellule = document.createElement("td");
+        let celluleText = document.createTextNode(value);
+        cellule.appendChild(celluleText);
+        colHead.appendChild(cellule);
+    } 
 }
