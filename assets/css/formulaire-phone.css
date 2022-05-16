@@ -48,9 +48,9 @@
     #submit_button {
         width: 105px;
         align-self: center;
-        background-color:rgba(241, 214, 6, 0.632) ;
+        background-color:#FFCF3E7D ;
         font-size: 20px;
-        color: rgba(38, 150, 146, 0.87);
+        color: white;
     }
     .gauche {
         display: flex;

@@ -46,12 +46,12 @@
     .partie-gauche label {
         margin-left: 1px;
         margin-right: 1px;
-        color: rgba(40, 142, 138, 0.87);
+        color: #547C84;
     }
     #submit_button {
         margin-top: 30px;
         align-self: center;
-        background-color:rgba(241, 214, 6, 0.632) ;
+        background-color:#FFCF3E7D;
         font-size: 15px;
         color: white;
         width: 50%;
@@ -63,5 +63,8 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+    h1 {
+        text-align: center;
     }
 }

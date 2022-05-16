@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #547C84;
+}
+#logo_id {
+    width: 9%;
+}
+a {
+    text-decoration: none;
+    color: #547C84;
+    background-color: #CDD6CE;
+    border: 15px solid #547C84;
+    width: 18%;
+    min-width: 18%;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #FFCF3EA8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#accueil {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
