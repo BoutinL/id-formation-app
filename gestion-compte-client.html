@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de votre compte</title>
+</head>
+<body>
+    <h1>Gestion de votre compte</h1>
+    <form>
+        <div>
+            <label for="pseudo_parent">
+                <span>Pseudo:</span>
+                <input type="text" class="" id="pseudo_parent">
+            </label>
+            <label for="nom_parent">
+                <span>Nom:</span>
+                <input type="text" class="" id="nom_parent">
+            </label>
+            <label for="email_parent">
+                <span>E-mail:</span>
+                <input type="email" id="email_parent">
+            </label>
+            <label for="adresse_parent">
+                <span>Adresse:</span>
+                <input type="text" class="" id="adresse_parent">
+            </label>
+            <label for="telephone_parent">
+                <span>Téléphone:</span>
+                <input type="tel" id="telephone_parent" pattern="0[0-9]{9}">
+            </label>
+            <input type="submit" value="Modifier">
+        </div>
+        <label for="pass">Mot de passe:
+            <input type="password" id="mdp" minlength="5">
+        </label>
+        <input type="button" value="Envoyer un mail de réinitialisation">
+    </form>
+</body>
+</html>
