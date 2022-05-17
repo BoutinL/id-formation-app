@@ -1,0 +1,53 @@
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+container {
+    display: block;
+    background-color: white;
+}
+h1  {
+    color: #547c84;
+    margin: 30px; 20px;
+}
+#partie_premiere {
+
+}
+#img_txt {
+    padding: 10px 40px;
+    display: flex;
+    width: 100%;
+}
+#introduction {
+    display: flex;
+    padding: 20px;
+}
+h2 {
+    background-color: #ffe699;
+    text-align: center;
+    padding: 20px;
+}
+.premier-paraph {
+    background-color: #ffe699;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+}
+#img_etablissemt {
+    width: 40%;
+}
+#partie_deux {
+    display: flex;
+    padding: 10px 40px;
+    width: 100%;
+}
+.deuxieme-paraph {
+    background-color: #a1b7bb;
+    width: 40%;
+    padding: 20px;
+    margin: 15px;
+}
+#img_cantine {
+    width: 45%;
+}
