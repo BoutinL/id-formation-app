@@ -1,4 +1,4 @@
-{
+const bdd= {
     "categories":
         {
             "utilisateurs": [
@@ -148,8 +148,8 @@
                     "adresse": "35 impasse des acacias 67200 STRASBOURG",
                     "telephone": "0670784521",
                     "enfant": "Elisabeth",
-                    "nomEnfant": "Lepouillu",
-                    "dateDemande": "18/04/2022",
+                    "nom-enfant": "Lepouillu",
+                    "date-demande": "18/04/2022",
                     "regime": 1,
                     "allergies": [],
                     "ribIban": "FR7630003035409876543210925"
@@ -161,8 +161,8 @@
                     "adresse": "3 rue des boucaniers 67100 STRASBOURG",
                     "telephone": "0668339961",
                     "enfant": "Sofia",
-                    "nomEnfant": "Haroufane",
-                    "dateDemande": "07/06/2022",
+                    "nom-enfant": "Haroufane",
+                    "date-demande": "07/06/2022",
                     "regime": 2,
                     "allergies": ["lait", "arachide"],
                     "rib Iban": "FR7620041010169876543210921"
@@ -181,4 +181,24 @@
                 }
             ]
         }
+}
+let tabl = document.createElement("table");
+document.body.append(tabl);
+let alertRetard = bdd.categories.retards;
+let firstRetard = alertRetard[0];
+
+for (const prop in firstRetard) {
+    let colHeader = document.createElement("th");
+    colHeader.textContent = prop;
+    tabl.appendChild(colHeader);
+}
+for( let i = 0; i <= alertRetard.length ; i++){
+    let colHead = document.createElement("tr");
+    tabl.appendChild(colHead);
+    for (let value of Object.values(alertRetard[i])) {
+        let cellule = document.createElement("td");
+        let celluleText = document.createTextNode(value);
+        cellule.appendChild(celluleText);
+        colHead.appendChild(cellule);
+    } 
 }
