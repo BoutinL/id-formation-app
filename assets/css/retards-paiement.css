@@ -1,0 +1,15 @@
+table{
+    width: auto;
+    height: auto;
+    border: 2px solid grey;
+    align-content: center;
+}
+th, tr, td {
+    border: 1px solid black;
+}
+th{
+    background-color: #FFCF3E;
+}
+td {
+    background: #CDD6CE;
+}

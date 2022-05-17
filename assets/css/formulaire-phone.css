@@ -1,0 +1,73 @@
+@media only screen and (max-width: 767px) {
+    container {
+        display: flex;
+        flex-direction: column;
+    }
+    .partie-centrale {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .infos-perso {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    #allergies {
+        height: 90px;
+    }
+    .infos-enfant input {
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: rgb(189, 232, 189);
+    }
+    textarea{
+        margin-left: 1px;
+        margin-right: 1px;
+        height: 100%;
+        margin-bottom: 30px;
+        background-color: rgb(189, 232, 189);
+        width: auto;
+    }
+    #h2_infos_perso {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        color: white;
+    }
+    .infos-enfant label {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .infos-enfant input {
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: rgb(189, 232, 189);
+    }
+    #submit_button {
+        width: 105px;
+        align-self: center;
+        background-color:#FFCF3E7D ;
+        font-size: 20px;
+        color: white;
+    }
+    .gauche {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .droite {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    h1 {
+        align-self: center;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

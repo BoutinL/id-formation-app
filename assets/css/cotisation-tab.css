@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+    }
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

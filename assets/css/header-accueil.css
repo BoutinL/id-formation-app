@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #547C84;
+}
+#logo_id {
+    width: 80px;
+}
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #547C84;
+    background-color: #CDD6CE;
+    margin: 10px 10px;
+    width: 160px;
+    font-weight: bold;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #547C84;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#accueil {
+    text-align: center;
+    font-weight: bold;
+}
+
