@@ -1,9 +1,7 @@
-header {
-    width: 100%;
-}
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #547C84;
 }
 #logo_id {
@@ -14,13 +12,11 @@ a {
     color: #547C84;
     background-color: #CDD6CE;
     border: 15px solid #547C84;
-    width: 18%;
-    min-width: 18%;
 }
 footer {
     margin-top: 20px;
     text-align: center;
-    background-color: #FFCF3EA8;
+    background-color: #547C84;
     color: white;
     display: flex;
     flex-direction: column;

@@ -4,34 +4,33 @@ header {
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #547C84;
-    
 }
 #logo_id {
-    width: 9%;
+    width: 80px;
 }
 a {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: #547C84;
     background-color: #CDD6CE;
-    border: 15px solid #547C84;
-    width: 13%;
+    margin: 10px 10px;
+    width: 160px;
+    font-weight: bold;
 }
-#footer {
+footer {
+    margin-top: 20px;
+    text-align: center;
     background-color: #547C84;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
-#compte {
+#accueil {
     text-align: center;
     font-weight: bold;
 }
-#connexion {
-    text-align: center;
-    font-weight: bold;
-}
-#compte1 {
-    margin-left: 57%;
-}
+
