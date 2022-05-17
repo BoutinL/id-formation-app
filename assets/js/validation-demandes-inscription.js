@@ -208,10 +208,13 @@ for( let i = 0; i <= demandes.length ; i++){
         colHead.appendChild(cellule);
     } 
     let cellule = document.createElement("td");
-    cellule.innerHTML = "<input type='button' onclick='disabledBtn()'  value='Accepter'>"
-    cellule.addEventListener("click", event => {
-        event.preventDefault();
-        disabled = true;
+    let bouton = document.createElement("input");
+    bouton.type = "button";
+    bouton.value = "Accepter";
+    bouton.addEventListener("click", e => {
+        e.preventDefault();
+        bouton.setAttribute("disabled","");
     })
+    cellule.appendChild(bouton);
     colHead.appendChild(cellule);
 }
