@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -108,4 +109,3 @@ textarea{
 #button_submit {
     align-self: center;
     margin-top: 20px;
-}
