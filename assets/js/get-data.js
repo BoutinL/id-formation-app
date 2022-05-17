@@ -1,4 +1,4 @@
-// On récupère le contenu du localStorage pour disposer des données sana voir à utiliser à nouveau un fetch.
+// On récupère le contenu du localStorage pour disposer des données sans voir à utiliser à nouveau un fetch.
 const datas = JSON.parse(localStorage.getItem("datas")); 
 let allUtilisateurs;
 for (const data in datas) {
