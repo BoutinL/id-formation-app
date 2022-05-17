@@ -7,7 +7,7 @@ classe: exemple-classe
 JS: camelCase
 
 commit: Décrire clairement ou vous vous êtes arrêter
-        exemple: git commit -m "Fin du formulaire"
+    exemple: git commit -m "Fin du formulaire"
 
 branch: branch-exemple-nom
 
