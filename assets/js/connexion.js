@@ -144,8 +144,8 @@ const bdd = {
                 "adresse": "35 impasse des acacias 67200 STRASBOURG",
                 "telephone": "0670784521",
                 "enfant": "Elisabeth",
-                "nomEnfant": "Lepouillu",
-                "dateDemande": "18/04/2022",
+                "nom-enfant": "Lepouillu",
+                "date-demande": "18/04/2022",
                 "regime": 1,
                 "allergies": [],
                 "ribIban": "FR7630003035409876543210925"
@@ -157,8 +157,8 @@ const bdd = {
                 "adresse": "3 rue des boucaniers 67100 STRASBOURG",
                 "telephone": "0668339961",
                 "enfant": "Sofia",
-                "nomEnfant": "Haroufane",
-                "dateDemande": "07/06/2022",
+                "nom-enfant": "Haroufane",
+                "date-demande": "07/06/2022",
                 "regime": 2,
                 "allergies": ["lait", "arachide"],
                 "ribIban": "FR7620041010169876543210921"
@@ -177,23 +177,45 @@ const bdd = {
         ]
     }
 }
-let tabl = document.createElement("table");
-document.body.append(tabl);
-let alertRetard = bdd.categories.retards;
-let firstRetard = alertRetard[0];
 
-for (const prop in firstRetard) {
-    let colHeader = document.createElement("th");
-    colHeader.textContent = prop;
-    tabl.appendChild(colHeader);
+let link = document.createElement("a");
+
+let users = bdd.categories.utilisateurs;
+let link = document.createElement("a");
+
+let users = bdd.categories.utilisateurs;
+let categories = bdd.categories;
+let firstElem = users[0];
+let pseudoAdmin = users[0].pseudo;
+
+for (const prop in firstElem) {
+    let firstValue = prop;
+    document.getElementById("connexion").submit("click");
+    link.innerHtml = "<span>Valider</span>";
+    connexion.addEventListener("submit", preventDefault);
+    if (pseudoAdmin === "admin") {
+        location.href = "accueil-admin.html";
+    } else {
+        addEventListener("submit", preventDefault)
+        location.href = "accueil-parent.html";
+        link.innerHtml = "<span>Valider</span>";
+    }
 }
-for( let i = 0; i <= alertRetard.length ; i++){
-    let colHead = document.createElement("tr");
-    tabl.appendChild(colHead);
-    for (let value of Object.values(alertRetard[i])) {
-        let cellule = document.createElement("td");
-        let celluleText = document.createTextNode(value);
-        cellule.appendChild(celluleText);
-        colHead.appendChild(cellule);
-    } 
+let btnSubmit = getElementById("connexion");
+btnSubmit.addEventListener("click", e => {
+    e.btnSubmit("submit");
+})
+let monInputPseudo = document.getElementbyId("pseudo");
+console.log(monInputPseudo.value);
+for (let allPseudo in users) {
+    if (allPseudo === pseudoAdmin && getElementbyId("pseudo") === "admin") {
+        injecte header admin
+        else 
+    }
 }
+
+// attendre clique du bouton submit
+// récuperer la value dans l'input pseudo
+// boucler sur la bdd pour trouver si le pseudo existe
+// si le pseudo est trouvé, tester si c'est admin ou pas
+// selon le résultat > connexion admin/parent ou pas
