@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+container {
+    display: flex;
+    flex-direction: row;
+    border: 15px solid #547C84;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.compte-parents {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #FFCF3E;
+}
+label {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #547C84;
+}
+input {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    background-color: #CDD6CE;
+    margin-bottom: 10px;
+}
+#bouton_modifier {
+    background-color: #FFCF3E;
+    color: white;
+    width: 40%;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#bouton_reinitialiser {
+    background-color: #FFCF3E;
+    color: white;
+    width: 40%;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    container {
+        display: flex;
+        flex-direction: column;
+        border: 20px solid #FFCF3E7D;
+        padding: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+    }
+    .partie-compte {
+        margin-right: 0px;
+    }
+    .partie-password {
+        margin-left: 0px;
+    }
+    section {
+        width: 90%;
+    }
+    main {
+        text-align: center;
+    }
+    input {
+        margin-bottom: 40px
+    }
+    
+}
